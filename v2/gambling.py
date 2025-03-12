@@ -30,9 +30,9 @@ def gambling_game_simulation(num_trials):
                 outcome = "Win"
                 total_wins += 1
                 break
-            else:
-                outcome = "Lose"
-                total_losses += 1
+        else:
+            outcome = "Lose"
+            total_losses += 1
 
         # Print the outcome of the trial
         if outcome == "Win":
